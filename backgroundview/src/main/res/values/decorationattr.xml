@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name = "decorationAttrStyle">
+        <attr name = "decoration_stroke_color" format = "color" />
+        <attr name = "decoration_solid_color" format = "color" />
+        <attr name = "decoration_stroke_select_color" format = "color" />
+        <attr name = "decoration_solid_select_color" format = "color" />
+        <attr name = "decoration_gradient_start_color" format = "color" />
+        <attr name = "decoration_gradient_end_color" format = "color" />
+        <attr name = "decoration_pressed_text_color" format = "color" />
+        <attr name = "decoration_normal_text_color" format = "color" />
+        <attr name = "decoration_gradient_angle" format = "integer" />
+        <attr name = "decoration_stroke_width" format = "dimension" />
+        <attr name = "decoration_conner_radius" format = "dimension" />
+    </declare-styleable>
+    <declare-styleable name = "decorationImageViewAttrStyle">
+        <attr name = "decoration_image_normal" format = "reference" />
+        <attr name = "decoration_image_pressed" format = "reference" />
+    </declare-styleable>
+</resources>

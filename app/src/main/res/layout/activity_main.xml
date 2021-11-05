@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.psk.view.backgroundview.DecorationTextview
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="DecorationTextview"
+            app:decoration_conner_radius="10dp"
+            app:decoration_solid_color="#5169E3"
+            app:decoration_solid_select_color="#ffff00"
+            app:decoration_stroke_color="@color/black"
+            app:decoration_pressed_text_color="#818183"
+            app:decoration_normal_text_color="@color/white"
+            app:decoration_stroke_select_color="#ff0000"
+            app:decoration_stroke_width="3dp"
+            app:layout_constraintTop_toTopOf="parent"></com.psk.view.backgroundview.DecorationTextview>
+
+        <com.psk.view.backgroundview.DecorationTextview
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="DecorationTextview"
+            app:decoration_conner_radius="10dp"
+            app:decoration_gradient_angle="180"
+            app:decoration_gradient_end_color="#ffff00"
+            app:decoration_gradient_start_color="#ff00ff"
+            app:decoration_solid_select_color="#ffff00"
+            app:layout_constraintTop_toTopOf="parent"></com.psk.view.backgroundview.DecorationTextview>
+
+        <com.psk.view.backgroundview.DecorationButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="DecorationButton"
+            app:decoration_conner_radius="25dp"
+            app:decoration_solid_color="#ff00ff"
+            app:decoration_solid_select_color="#ffff00"
+            app:decoration_pressed_text_color="#124DE4"
+            app:decoration_normal_text_color="@color/black"
+            app:decoration_stroke_color="@color/black"
+            app:decoration_stroke_select_color="#ff0000"
+            app:decoration_stroke_width="3dp"
+            app:layout_constraintTop_toTopOf="parent"></com.psk.view.backgroundview.DecorationButton>
+
+
+        <com.psk.view.backgroundview.DecorationEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:hint="DecorationEditText"
+            app:decoration_conner_radius="10dp"
+            app:decoration_solid_select_color="#686868"
+            app:decoration_stroke_color="@color/black"
+            app:decoration_stroke_select_color="#ff0000"
+            app:decoration_stroke_width="3dp"
+            app:layout_constraintTop_toTopOf="parent"></com.psk.view.backgroundview.DecorationEditText>
+
+        <com.psk.view.backgroundview.DecorationLinearlayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:paddingLeft="10dp"
+            android:text="sakldja skdj klasj"
+            app:decoration_conner_radius="10dp"
+            app:decoration_solid_color="#5169E3"
+            app:decoration_solid_select_color="#686868"
+            app:decoration_stroke_color="@color/black"
+            app:decoration_stroke_select_color="#ff0000"
+            android:clickable="true"
+            app:decoration_stroke_width="3dp"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DecorationLinearlayout"></TextView>
+        </com.psk.view.backgroundview.DecorationLinearlayout>
+
+        <com.psk.view.backgroundview.DecorationRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:paddingLeft="10dp"
+            app:decoration_conner_radius="10dp"
+            app:decoration_solid_select_color="#686868"
+            app:decoration_stroke_color="@color/black"
+            app:decoration_stroke_select_color="#ff0000"
+            app:decoration_stroke_width="1dp"
+            android:clickable="true"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DecorationRelativeLayout"></TextView>
+        </com.psk.view.backgroundview.DecorationRelativeLayout>
+
+        <com.psk.view.backgroundview.DecorationImageview
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:background="@drawable/ic_launcher_background"
+            android:clickable="true"
+            app:decoration_image_normal="@drawable/ic_launcher_foreground"
+            app:decoration_image_pressed="@drawable/ic_launcher_foreground2"></com.psk.view.backgroundview.DecorationImageview>
+
+    </LinearLayout>
+
+</ScrollView>
