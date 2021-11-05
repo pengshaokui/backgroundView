@@ -31,7 +31,7 @@ Step 2. Add the dependency
 
 ## GIF
 
-![img](https://github.com/pengshaokui/backgroundView/blob/main/gif/Screenrecorder20211106.gif)
+![img](https://github.com/pengshaokui/backgroundView/blob/main/gif/Screenrecorder20211106x.gif)
 
 ## 使用方法
 
