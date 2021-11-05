@@ -24,14 +24,14 @@ Step 2. Add the dependency
 
 ```
 	dependencies {
-	        implementation 'com.github.pengshaokui:backgroundView:Tag'
+	        implementation 'com.github.pengshaokui:backgroundView:v1.0.0'
 	}
 
 ```
 
 ## GIF
 
-<img src="https://github.com/pengshaokui/backgroundView/Screenrecorder-2021-11-06-00-56-55-875.gif" alt="show" />
+![img](https://github.com/pengshaokui/backgroundView/gif/Screenrecorder20211106.gif)
 
 ## 使用方法
 
