@@ -32,7 +32,9 @@ Step 2. Add the dependency
 ## GIF
 
 ![img](https://github.com/pengshaokui/backgroundView/blob/main/gif/Screenrecorder20211106x.gif)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/24237865/63502889-6916f300-c509-11e9-893a-d634f1c6a850.gif" width="32%"/>
+</p>
 ## 使用方法
 
 以Textview为例  暂时支持的有
